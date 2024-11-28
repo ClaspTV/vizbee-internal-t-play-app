@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Custom.RemoteButton.TMobilePlay" parent="Widget.Vizbee">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="vzb_remoteButtonTint">@color/tmobile_magenta</item>
+        <item name="vzb_remoteButtonIconSize">24dp</item>
+        <!-- Custom drawables for different states -->
+        <item name="vzb_remoteButtonIconNotConnected">@drawable/cast_notconnected</item>
+        <item name="vzb_remoteButtonIconConnecting0">@drawable/cast_connecting0</item>
+        <item name="vzb_remoteButtonIconConnecting1">@drawable/cast_connecting1</item>
+        <item name="vzb_remoteButtonIconConnecting2">@drawable/cast_connecting2</item>
+        <item name="vzb_remoteButtonIconConnected">@drawable/cast_connected</item>
+    </style>
+</resources>
