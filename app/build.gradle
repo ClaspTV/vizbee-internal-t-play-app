@@ -67,8 +67,8 @@ dependencies {
     implementation "io.coil-kt:coil-compose:2.5.0"
 
     // Vizbee
-    implementation "tv.vizbee:android-sender-sdk:6.7.6-t-play-rc.2"
-    implementation "tv.vizbee:t-play-sdk:0.0.1-rc.2"
+    implementation "tv.vizbee:android-sender-sdk:6.7.6-t-play-rc.5"
+    implementation "tv.vizbee:t-play-sdk:0.0.1-rc.4"
 
     testImplementation libs.junit
 

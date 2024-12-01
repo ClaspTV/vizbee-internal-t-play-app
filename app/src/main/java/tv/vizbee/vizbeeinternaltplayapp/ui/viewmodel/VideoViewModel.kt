@@ -16,8 +16,10 @@ import tv.vizbee.vizbeeinternaltplayapp.data.model.Video
 import tv.vizbee.vizbeeinternaltplayapp.data.repository.VideoRepository
 
 class VideoViewModel : ViewModel() {
+    private val tag = "VZBTPLAYAPP::VideoViewModel"
+
     private val repository = VideoRepository()
-    
+
     private val _videos = MutableStateFlow<List<Video>>(emptyList())
     val videos: StateFlow<List<Video>> = _videos.asStateFlow()
 
@@ -40,7 +42,7 @@ class VideoViewModel : ViewModel() {
                 _playbackState.value = result
                 handlePlaybackResult(result)
             } catch (e: Exception) {
-                Log.e("VideoViewModel", "Error starting video", e)
+                Log.e(tag, "Error starting video", e)
                 // Handle any unexpected errors
             }
         }
@@ -69,31 +71,31 @@ class VideoViewModel : ViewModel() {
     private fun handleSuccessResult(result: StartVideoResult.Success) {
         when (result.destination) {
             StartVideoResult.Destination.TV -> {
-                Log.d("VideoViewModel", "Video playing on TV")
+                Log.d(tag, "Video playing on TV")
             }
             StartVideoResult.Destination.MOBILE -> {
-                Log.d("VideoViewModel", "Video playing on mobile")
+                Log.d(tag, "Video playing on mobile")
             }
         }
     }
 
     private fun handleFailureResult(result: StartVideoResult.Failure) {
         when (result.error) {
-            is StartVideoError.DeviceSelectionError -> {
-                Log.e("VideoViewModel", "Device selection error: ${result.error.message}")
+            is StartVideoError.DeviceSelectionCancelled -> {
+                Log.e(tag, "Device selection cancelled: ${result.error.message}")
+            }
+            is StartVideoError.DeviceConnectionCancelled -> {
+                Log.e(tag, "Device Connection cancelled: ${result.error.message}")
             }
             is StartVideoError.DeviceConnectionError -> {
                 val connectionError = result.error as StartVideoError.DeviceConnectionError
                 Log.e(
-                    "VideoViewModel",
+                    tag,
                     "Connection error: ${connectionError.message}, reason: ${connectionError.reason}"
                 )
             }
-            is StartVideoError.DeviceConnectionCancelled -> {
-                Log.e("VideoViewModel", "Connection cancelled: ${result.error.message}")
-            }
             is StartVideoError.UnknownError -> {
-                Log.e("VideoViewModel", "Unknown error: ${result.error.message}")
+                Log.e(tag, "Unknown error: ${result.error.message}")
             }
         }
     }
