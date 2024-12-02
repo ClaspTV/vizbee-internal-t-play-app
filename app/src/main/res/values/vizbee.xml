@@ -39,8 +39,8 @@
 
           Update the fonts below to suit your app.
          -->
-        <item name="vzb_primaryFont">sora_bold</item>
-        <item name="vzb_secondaryFont">sora_regular</item>
+        <item name="vzb_primaryFont">productsans_bold</item>
+        <item name="vzb_secondaryFont">productsans_regular</item>
 
         <!-- Titles & subtitles -->
         <item name="vzb_textAppearanceTitle1">@style/Theme.Vizbee.TPlay.TitleLabelStyle</item>
