@@ -67,15 +67,10 @@
         <item name="vzb_videoPlayerControlButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerControlButton</item>
         <item name="vzb_playerControlsViewPlayPauseButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerPlayPauseButton</item>
         <item name="vzb_seekBarVideoStyle">@style/Theme.Vizbee.TPlay.VideoControlSeekBar</item>
+        <item name="vzb_videoControlSeekBarLabelStyle">@style/Theme.Vizbee.TPlay.VideoControlSeekBarLabel</item>
     </style>
 
     <!-- Player Card -->
-    <style name="Theme.Vizbee.TPlay.VideoPlayerControlButton" parent="Widget.Vizbee.Futura.Button.VideoPlayerControl">
-        <item name="vzb_checkedSrcColor">?attr/vzb_secondaryColor</item>
-        <item name="vzb_backgroundEnabled">#2b2b2b</item>
-        <item name="vzb_srcColor">?attr/vzb_tertiaryColor</item>
-    </style>
-
     <style name="Theme.Vizbee.TPlay.PlayerBufferingStyle" parent="Widget.Vizbee.Futura.ContentStatusView">
         <item name="android:background">#66FFFFFF</item>
     </style>
@@ -84,13 +79,32 @@
         <item name="android:background">#66FFFFFF</item>
     </style>
 
+    <style name="Theme.Vizbee.TPlay.VideoPlayerControlButton" parent="Widget.Vizbee.Futura.Button.VideoPlayerControl">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="vzb_checkedSrcColor">?attr/vzb_secondaryColor</item>
+        <item name="vzb_backgroundEnabled">#2b2b2b</item>
+        <item name="vzb_srcColor">?attr/vzb_tertiaryColor</item>
+    </style>
+
     <style name="Theme.Vizbee.TPlay.VideoPlayerPlayPauseButton" parent="Widget.Vizbee.Futura.Button.VideoPlayerControl.PlayPause">
+        <item name="android:layout_height">84dp</item>
+        <item name="android:layout_width">84dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
         <item name="vzb_backgroundEnabled">#2b2b2b</item>
         <item name="vzb_srcColor">?attr/vzb_tertiaryColor</item>
     </style>
     
     <style name="Theme.Vizbee.TPlay.VideoControlSeekBar" parent="Widget.Vizbee.Futura.VideoControlSeekBar">
         <item name="vzb_useCircularThumb">true</item>
+    </style>
+
+    <style name="Theme.Vizbee.TPlay.VideoControlSeekBarLabel" parent="Widget.Vizbee.Futura.VideoControlSeekBarLabel">
+        <item name="android:textAppearance">?attr/vzb_textAppearanceBody</item>
+        <item name="android:textColor">#B1B1B1</item>
     </style>
 
     <!-- Title label style-->
