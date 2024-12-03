@@ -64,6 +64,7 @@
         <!-- Player Card -->
         <item name="vzb_contentStatusViewStyle">@style/Theme.Vizbee.TPlay.PlayerBufferingStyle</item>
         <item name="vzb_adStatusViewStyle">@style/Theme.Vizbee.TPlay.AdStatusView</item>
+        <item name="vzb_playerControlsViewStyle">@style/Theme.Vizbee.TPlay.PlayerControlsView</item>
         <item name="vzb_videoPlayerControlButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerControlButton</item>
         <item name="vzb_playerControlsViewPlayPauseButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerPlayPauseButton</item>
         <item name="vzb_seekBarVideoStyle">@style/Theme.Vizbee.TPlay.VideoControlSeekBar</item>
@@ -77,6 +78,13 @@
 
     <style name="Theme.Vizbee.TPlay.AdStatusView" parent="Widget.Vizbee.Futura.AdStatusView">
         <item name="android:background">#66FFFFFF</item>
+    </style>
+
+    <style name="Theme.Vizbee.TPlay.PlayerControlsView" parent="Widget.Vizbee.Futura.PlayerControlsView">
+                <item name="vzb_playButtonDrawable">@drawable/tplay_ic_play_button</item>
+                <item name="vzb_pauseButtonDrawable">@drawable/tplay_ic_pause_button</item>
+                <item name="vzb_stopButtonDrawable">@drawable/tplay_ic_stop_button</item>
+                <item name="vzb_rewindButtonDrawable">@drawable/tplay_ic_rewind_30s_button</item>
     </style>
 
     <style name="Theme.Vizbee.TPlay.VideoPlayerControlButton" parent="Widget.Vizbee.Futura.Button.VideoPlayerControl">
@@ -94,6 +102,7 @@
         <item name="android:layout_width">84dp</item>
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">10dp</item>
+        <item name="android:padding">16dp</item>
         <item name="vzb_backgroundEnabled">#2b2b2b</item>
         <item name="vzb_srcColor">?attr/vzb_tertiaryColor</item>
     </style>
