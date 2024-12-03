@@ -60,8 +60,15 @@
 
         <!-- Device Status spinner -->
         <item name="vzb_deviceSelection_vizbeeIconStyle">@style/Theme.Vizbee.TPlay.AnimatedVizbeeIcon</item>
+
+        <!-- Player Card -->
+        <item name="vzb_seekBarVideoStyle">@style/Theme.Vizbee.TPlay.VideoControlSeekBar</item>
     </style>
 
+    <!-- Player Card -->
+    <style name="Theme.Vizbee.TPlay.VideoControlSeekBar" parent="Widget.Vizbee.Futura.VideoControlSeekBar">
+        <item name="vzb_useCircularThumb">true</item>
+    </style>
 
     <!-- Title label style-->
     <style name="Theme.Vizbee.TPlay.TitleLabelStyle" parent="TextAppearance.Vizbee.Title1">
