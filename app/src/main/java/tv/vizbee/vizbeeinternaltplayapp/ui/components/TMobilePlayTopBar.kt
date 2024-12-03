@@ -39,11 +39,6 @@ fun TMobilePlayTopBar() {
                 contentScale = ContentScale.Fit
             )
         },
-//        navigationIcon = {
-//            IconButton(onClick = { /* Handle settings click */ }) {
-//                Icon(Icons.Default.Settings, contentDescription = "Settings")
-//            }
-//        },
         actions = {
             // Wrap the CastButton in AndroidView
             AndroidView(

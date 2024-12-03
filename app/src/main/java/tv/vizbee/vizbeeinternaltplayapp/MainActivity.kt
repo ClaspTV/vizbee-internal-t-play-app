@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         tPlayOptions.debugMode = true
         VizbeeTPlay.init(
             application,
-            "vzb2000001", // R.string.vzb_app_id,
+            "vzb2379701350",
             tPlayOptions
         )
 
