@@ -62,6 +62,8 @@
         <item name="vzb_deviceSelection_vizbeeIconStyle">@style/Theme.Vizbee.TPlay.AnimatedVizbeeIcon</item>
 
         <!-- Player Card -->
+        <item name="vzb_contentStatusViewStyle">@style/Theme.Vizbee.TPlay.PlayerBufferingStyle</item>
+        <item name="vzb_adStatusViewStyle">@style/Theme.Vizbee.TPlay.AdStatusView</item>
         <item name="vzb_videoPlayerControlButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerControlButton</item>
         <item name="vzb_playerControlsViewPlayPauseButtonStyle">@style/Theme.Vizbee.TPlay.VideoPlayerPlayPauseButton</item>
         <item name="vzb_seekBarVideoStyle">@style/Theme.Vizbee.TPlay.VideoControlSeekBar</item>
@@ -72,6 +74,14 @@
         <item name="vzb_checkedSrcColor">?attr/vzb_secondaryColor</item>
         <item name="vzb_backgroundEnabled">#2b2b2b</item>
         <item name="vzb_srcColor">?attr/vzb_tertiaryColor</item>
+    </style>
+
+    <style name="Theme.Vizbee.TPlay.PlayerBufferingStyle" parent="Widget.Vizbee.Futura.ContentStatusView">
+        <item name="android:background">#66FFFFFF</item>
+    </style>
+
+    <style name="Theme.Vizbee.TPlay.AdStatusView" parent="Widget.Vizbee.Futura.AdStatusView">
+        <item name="android:background">#66FFFFFF</item>
     </style>
 
     <style name="Theme.Vizbee.TPlay.VideoPlayerPlayPauseButton" parent="Widget.Vizbee.Futura.Button.VideoPlayerControl.PlayPause">
