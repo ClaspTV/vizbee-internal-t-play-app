@@ -145,7 +145,7 @@
         <item name="vzb_deviceListTitleTextAppearance" tools:ignore="PrivateResource">?attr/vzb_textAppearanceTitle2</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
     </style>
 
     <!-- Device Info view -->
