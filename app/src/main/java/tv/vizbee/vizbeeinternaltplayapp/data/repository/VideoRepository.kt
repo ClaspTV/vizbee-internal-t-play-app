@@ -38,10 +38,10 @@ class VideoRepository {
             contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://tbs.app.link/3WBd8kdi61",
-            title = "Thor: Ragnarok",
+            id = "https://tbs.app.link/N6kZbZtHVOb",
+            title = "Die Hard",
             subtitle = "TBS • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F3379d8ba00680490afed55f725cf04e1.jpg",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F5295f9b6a1ff36985135ea39189f33f1.jpg",
             contentType = ContentType.MOVIE
         ),
         Video(

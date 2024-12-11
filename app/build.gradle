@@ -68,7 +68,7 @@ dependencies {
 
     // Vizbee
     implementation "tv.vizbee:android-sender-sdk:6.7.6-t-play-1.0.1-rc.2"
-    implementation "tv.vizbee:t-play-sdk:1.0.1-rc.4"
+    implementation "tv.vizbee:t-play-sdk:1.0.1-rc.5"
 
     testImplementation libs.junit
 
