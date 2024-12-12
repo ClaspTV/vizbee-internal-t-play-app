@@ -66,13 +66,6 @@ class VideoRepository {
             subtitle = "TNT • TV Show",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F1qzuS7b2XjiVcWwmDkOyE5hIxUM.jpg",
             contentType = ContentType.TV_SHOW
-        ),
-        Video(
-            id = "https://tnt.app.link/dAUfOVWCw8",
-            title = "Ant-Man and the Wasp",
-            subtitle = "TNT • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa376b5578f1970bc88af148477338dcc.jpg",
-            contentType = ContentType.MOVIE
-        ),
+        )
     )
 }
