@@ -167,4 +167,22 @@
         <item name="android:layout_marginTop">30dp</item>
     </style>
 
+    <style name="Widget.Vizbee.Futura.VizbeeCastBarTitleLabel" parent="@android:style/TextAppearance.Holo.Widget">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/productsans_bold</item>
+    </style>
+
+    <style name="Widget.Vizbee.Futura.VizbeeCastBarSubtitleLabel" parent="@android:style/TextAppearance.Holo.Widget">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/productsans_regular</item>
+    </style>
+
 </resources>
