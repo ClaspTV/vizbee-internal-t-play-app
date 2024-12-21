@@ -67,15 +67,13 @@ dependencies {
     implementation "io.coil-kt:coil-compose:2.5.0"
 
     // Vizbee
-    implementation "tv.vizbee:android-sender-sdk:6.7.6-t-play-1.0.1-plugins-23"
-    implementation "tv.vizbee:t-play-sdk:1.0.3-companion-ads-rc23"
+    implementation "tv.vizbee:android-sender-sdk:6.7.6-t-play-1.0.1-plugins-27"
+    implementation "tv.vizbee:t-play-sdk:1.0.3-companion-ads-rc30"
 
     // LeakCanary main dependency
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.12'
     // Optional: for heap analysis
     debugImplementation 'com.squareup.leakcanary:leakcanary-object-watcher-android:2.12'
-
-    implementation "com.squareup.picasso:picasso:2.71828"
 
     testImplementation libs.junit
 

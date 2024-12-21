@@ -37,7 +37,6 @@ class VideoViewModel : ViewModel() {
     fun startVideoPlayback(context: Context, video: Video) {
         viewModelScope.launch {
             try {
-                Log.d(tag, "Starting video playback with video: $video")
                 val videoInfo = createVideoInfo(video)
                 val result = startVideo(context, videoInfo)
                 _playbackState.value = result
