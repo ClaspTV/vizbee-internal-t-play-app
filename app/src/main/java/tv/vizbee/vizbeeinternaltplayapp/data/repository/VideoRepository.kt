@@ -36,17 +36,17 @@ class VideoRepository {
             contentType = ContentType.TV_SHOW
         ),
         Video(
-            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
+            id = "https://watch.plex.tv/show/mythbusters/season/2/episode/7",
             title = "MythBusters S2 E7",
             subtitle = "Plex • Show",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8645e0ab7fea21f57afed262695bfe75.jpg",
             contentType = ContentType.TV_SHOW
         ),
         Video(
-            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
+            id = "https://watch.plex.tv/show/spartacus/season/1/episode/1",
             title = "Spartacus S1 E1",
             subtitle = "Plex • Show",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8645e0ab7fea21f57afed262695bfe75.jpg",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F56170662a6ad3c74d307dd231b15cd8a.jpg",
             contentType = ContentType.TV_SHOW
         ),
 
