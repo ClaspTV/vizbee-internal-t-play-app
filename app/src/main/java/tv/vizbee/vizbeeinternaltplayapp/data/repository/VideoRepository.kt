@@ -8,11 +8,25 @@ class VideoRepository {
 
         // Plex Content
         Video(
-            id = "https://watch.plex.tv/movie/wind-river-2017",
-            title = "Wind River",
-            subtitle = "Plex • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F2%2Fgracenote%2F280a74dc94608b76fd7c8332bbadfb2d.jpg",
-            contentType = ContentType.MOVIE
+            id = "https://watch.plex.tv/show/spartacus/season/1/episode/1",
+            title = "Spartacus S1 E1",
+            subtitle = "Plex • Show",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F56170662a6ad3c74d307dd231b15cd8a.jpg",
+            contentType = ContentType.TV_SHOW
+        ),
+        Video(
+            id = "https://watch.plex.tv/show/mythbusters/season/2/episode/7",
+            title = "MythBusters S2 E7",
+            subtitle = "Plex • Show",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8645e0ab7fea21f57afed262695bfe75.jpg",
+            contentType = ContentType.TV_SHOW
+        ),
+        Video(
+            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
+            title = "Weeds S5 E10",
+            subtitle = "Plex • Show",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F4tw4uoXdhmOaHSxzNHWpFv9jGvl.jpg",
+            contentType = ContentType.TV_SHOW
         ),
         Video(
             id = "https://watch.plex.tv/movie/the-pianist",
@@ -29,26 +43,27 @@ class VideoRepository {
             contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
-            title = "Weeds S5 E10",
+            id = "https://watch.plex.tv/show/the-drew-carey-show/season/1/episode/1",
+            title = "The Drew Carey Show S1E1",
             subtitle = "Plex • Show",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F4tw4uoXdhmOaHSxzNHWpFv9jGvl.jpg",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fd%2Fgracenote%2Fd31913ccc1c931400d20eeeaaa4c2c42.jpg",
             contentType = ContentType.TV_SHOW
         ),
         Video(
-            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
-            title = "MythBusters S2 E7",
-            subtitle = "Plex • Show",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8645e0ab7fea21f57afed262695bfe75.jpg",
-            contentType = ContentType.TV_SHOW
+            id = "https://watch.plex.tv/movie/the-best-of-enemies-2019",
+            title = "The Best of Enemies",
+            subtitle = "Plex • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F2%2Fgracenote%2F2aa65b00cde47a4e08105223a4c14c87.jpg",
+            contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://watch.plex.tv/show/weeds/season/5/episode/10",
-            title = "Spartacus S1 E1",
-            subtitle = "Plex • Show",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8645e0ab7fea21f57afed262695bfe75.jpg",
-            contentType = ContentType.TV_SHOW
+            id = "https://watch.plex.tv/movie/limitless",
+            title = "Limitless",
+            subtitle = "Plex • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F1Zst36lKbFqK6YFLFRRtJodKajs.jpg",
+            contentType = ContentType.MOVIE
         ),
+
 
         // TBS Content
         Video(
@@ -59,52 +74,59 @@ class VideoRepository {
             contentType = ContentType.TV_SHOW
         ),
         Video(
-            id = "https://tbs.app.link/QyCVj8czCS",
-            title = "Friends",
+            id = "https://tbs.app.link/orvitTXCf0",
+            title = "Friends (S5E8)",
             subtitle = "TBS • Show",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
             contentType = ContentType.TV_SHOW
         ),
         Video(
-            id = "https://tbs.app.link/Ln2XTeYvojb",
-            title = "Ready Player One",
+            id = "https://tbs.app.link/ISQZopO0v7",
+            title = "Avengers: Infinity War",
             subtitle = "TBS • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F3b12c25bdfba029dafc2fbad954f9ac5.jpg",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Ff%2Fgracenote%2Ff96f07ec630498331baea1793794342f.jpg",
             contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://tbs.app.link/Nlf03PMrdNb",
-            title = "The Goonies",
+            id = "https://tbs.app.link/8TH3hy0WScb",
+            title = "Avengers: Endgame",
             subtitle = "TBS • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fe%2Fgracenote%2Fefbb6903d012147d22d5a1f9c701ba79.jpg",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa607d7f6f2d86d5b99b57d70e46102c1.jpg",
             contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://tbs.app.link/3WBd8kdi61",
+            id = "https://tbs.app.link/EtepnoqzCS",
             title = "The Wizard of Oz",
             subtitle = "TBS • Movie",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fe%2Fgracenote%2Fefbb6903d012147d22d5a1f9c701ba79.jpg",
             contentType = ContentType.MOVIE
         ),
+        Video(
+            id = "https://tbs.app.link/i3Ec0Ks6CO",
+            title = "Maleficent",
+            subtitle = "TBS • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F51e0fffcb5873c27b4c502327bf637e7.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
+            id = "https://tbs.app.link/Igistrn9Ixb",
+            title = "Mortal Combat",
+            subtitle = "TBS • Movie",
+            thumbnailUrl = "https://m.media-amazon.com/images/M/MV5BZmZmNjAxNmQtZjZlNS00YmZhLWJlMzgtNmYzZjYyMjQ0MmZhXkEyXkFqcGc@._V1_.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
+            id = "https://tbs.app.link/wrYzsnpaEcb",
+            title = "Captain Marvel",
+            subtitle = "TBS • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc1b3e31b0fc32591cc3d56034200efed.jpg",
+            contentType = ContentType.MOVIE
+        ),
 
-        Video(
-            id = "https://tbs.app.link/2qtkGJkdY0",
-            title = "A Christmas Story",
-            subtitle = "TBS • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F3a4f1936dca41b08c0518aec1347b05b.jpg",
-            contentType = ContentType.MOVIE
-        ),
-        Video(
-            id = "https://tbs.app.link/sfQ79CcqkBb",
-            title = "My Spy",
-            subtitle = "TBS • Movie",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fe%2Fgracenote%2Fea032a80c35ae7f663b60fa93e8ccdbd.jpg",
-            contentType = ContentType.MOVIE
-        ),
 
         // TNT Content
         Video(
-            id = "https://tnt.app.link/BSEl6gDZJ5",
+            id = "https://tnt.app.link/PV4S6SbYtN",
             title = "The Alienist S1 E1 The Boy on the Bridge",
             subtitle = "TNT • TV Show",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F1qzuS7b2XjiVcWwmDkOyE5hIxUM.jpg",
@@ -118,11 +140,11 @@ class VideoRepository {
             contentType = ContentType.MOVIE
         ),
         Video(
-            id = "https://tnt.app.link/XqntkkTj4tb",
-            title = "The Lazarus Project S1 E1",
+            id = "https://tnt.app.link/deapgPo1v7",
+            title = "Avengers: Infinity",
             subtitle = "TNT • Show",
-            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FilfIn5DGgZMJbJi9rwfJp3wKc0C.jpg",
-            contentType = ContentType.TV_SHOW
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Ff%2Fgracenote%2Ff96f07ec630498331baea1793794342f.jpg",
+            contentType = ContentType.MOVIE
         ),
         Video(
             id = "https://tnt.app.link/g59DjIQ3Dcb",
@@ -131,6 +153,21 @@ class VideoRepository {
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa607d7f6f2d86d5b99b57d70e46102c1.jpg",
             contentType = ContentType.MOVIE
         ),
+        Video(
+            id = "https://tnt.app.link/Za85uu9MScb",
+            title = "Captain Marvel",
+            subtitle = "TNT • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc1b3e31b0fc32591cc3d56034200efed.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
+            id = "https://tnt.app.link/Te7RIDSRr0",
+            title = "Maleficent",
+            subtitle = "TNT • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F51e0fffcb5873c27b4c502327bf637e7.jpg",
+            contentType = ContentType.MOVIE
+        ),
+
         Video(
             id = "https://tnt.app.link/JZTAidR0pJb",
             title = "Die Hard",

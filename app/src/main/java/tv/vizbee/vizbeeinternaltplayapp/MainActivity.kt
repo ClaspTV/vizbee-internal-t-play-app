@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import tv.vizbee.tplay.VizbeeTPlay
 import tv.vizbee.tplay.VizbeeTPlayOptions
+import tv.vizbee.vizbeeinternaltplayapp.analytics.VizbeeTPlayAnalyticsHandler
 import tv.vizbee.vizbeeinternaltplayapp.ui.components.TMobilePlayTopBar
 import tv.vizbee.vizbeeinternaltplayapp.ui.screens.HomeScreen
 import tv.vizbee.vizbeeinternaltplayapp.ui.theme.TMobilePlayTheme
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
             "vzb2379701350",
             tPlayOptions
         )
-
+        VizbeeTPlayAnalyticsHandler()
         setContent {
             TMobilePlayApp()
         }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VZBTPlayTransparentDialog" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- VzbTPlay attributes -->
+        <item name="vzbTPlay_primaryColor">#202020</item>
+        <item name="vzbTPlay_secondaryColor">#EB0054</item>
+        <item name="vzbTPlay_tertiaryColor">@android:color/white</item>
+
+        <item name="vzbTPlay_lighterTertiaryColor">#A0A0A0</item>
+        <item name="vzbTPlay_lighterPrimaryColor">#4A4A4A</item>
+
+        <item name="vzbTPlay_primaryFont">@font/t_play_sdk_product_sans_bold</item>
+        <item name="vzbTPlay_secondaryFont">@font/t_play_sdk_product_sans_regular</item>
+    </style>
+</resources>
