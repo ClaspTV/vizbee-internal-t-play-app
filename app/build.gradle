@@ -68,7 +68,7 @@ dependencies {
 
     // Vizbee
     implementation "tv.vizbee:android-sender-sdk:6.9.0-t-play-1.0.0"
-    implementation "tv.vizbee:t-play-sdk:1.0.8-alpha-1.3"
+    implementation "tv.vizbee:t-play-sdk:1.0.8"
 
     // LeakCanary main dependency
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.12'
