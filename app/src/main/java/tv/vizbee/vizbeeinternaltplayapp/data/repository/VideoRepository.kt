@@ -8,6 +8,13 @@ class VideoRepository {
 
         // Plex Content
         Video(
+            id = "https://watch.plex.tv/movie/kandahar-2023",
+            title = "Kandahar",
+            subtitle = "Plex • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F4%2Fgracenote%2F4d3d9b18f8de618f8956a2a27ca9fec5.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
             id = "https://watch.plex.tv/show/spartacus/season/1/episode/1",
             title = "Spartacus S1 E1",
             subtitle = "Plex • Show",
