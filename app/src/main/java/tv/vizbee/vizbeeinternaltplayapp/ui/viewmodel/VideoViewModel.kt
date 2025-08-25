@@ -51,8 +51,9 @@ class VideoViewModel : ViewModel() {
     private fun createVideoInfo(video: Video): TPlayVideoInfo {
         return TPlayVideoInfo(
             title = video.title,
-            subtitle = video.subtitle,
+//            subtitle = video.subtitle,
             mobileDeepLinkUrl = video.id,
+            tvDeepLinkUrl = video.id,
             imageUrl = video.thumbnailUrl
         )
     }
