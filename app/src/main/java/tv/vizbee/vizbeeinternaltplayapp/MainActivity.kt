@@ -1,6 +1,9 @@
 package tv.vizbee.vizbeeinternaltplayapp
 
 import android.os.Bundle
+import android.os.StrictMode
+import android.os.StrictMode.ThreadPolicy
+import android.os.StrictMode.VmPolicy
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.padding
@@ -17,6 +20,23 @@ import tv.vizbee.vizbeeinternaltplayapp.ui.theme.TMobilePlayTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        StrictMode.setThreadPolicy(
+            ThreadPolicy.Builder()
+                .detectDiskReads()
+                .detectDiskWrites()
+                .detectAll()
+                .penaltyLog()
+//                .penaltyDeath() // This will crash the app - use carefully
+                .build()
+        )
+
+        StrictMode.setVmPolicy(
+            VmPolicy.Builder()
+                .detectAll()
+                .penaltyLog()
+                .build()
+        )
 
         val tPlayOptions = VizbeeTPlayOptions()
         tPlayOptions.debugMode = true

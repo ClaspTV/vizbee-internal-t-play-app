@@ -8,9 +8,30 @@ class VideoRepository {
 
         // Plex Content
         Video(
+            id = "https://watch.plex.tv/movie/highlander-1986?context=deeplink&utm_content=5d776d15fb0d55001f596e0f&utm_medium=deeplink",
+            title = "Highlander",
+            subtitle = "Plex • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F85b4c1b5d4bb7f0b0131f27989e7ff86.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
+            id = "https://watch.plex.tv/movie/snowpiercer?context=deeplink&utm_content=5d77692efb0d55001f523200&utm_medium=deeplink",
+            title = "Snowpiercer",
+            subtitle = "Plex • Movie",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fb%2Fgracenote%2Fb707c5b0f06ba986a59bc8c3487f5a66.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
+            id = "https://watch.plex.tv/show/weeds/season/1/episode/1?context=deeplink&utm_content=5d9c0c9fba6eb9001fbcbb27&utm_medium=deeplink",
+            title = "Weeds S1 E1",
+            subtitle = "Plex • Show",
+            thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F5G4kxKevckLrhTaKvMkJT6jqTN2.jpg",
+            contentType = ContentType.MOVIE
+        ),
+        Video(
             id = "https://watch.plex.tv/movie/kandahar-2023",
             title = "Kandahar",
-            subtitle = "",
+            subtitle = "Plex • Movie",
             thumbnailUrl = "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F4%2Fgracenote%2F4d3d9b18f8de618f8956a2a27ca9fec5.jpg",
             contentType = ContentType.MOVIE
         ),
