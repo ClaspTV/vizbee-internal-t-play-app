@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import org.json.JSONObject
+import tv.vizbee.api.VizbeeContext
 import tv.vizbee.tplay.VizbeeTPlay
 import tv.vizbee.tplay.VizbeeTPlayOptions
 import tv.vizbee.vizbeeinternaltplayapp.analytics.VizbeeTPlayAnalyticsHandler
@@ -46,6 +48,9 @@ class MainActivity : ComponentActivity() {
             tPlayOptions
         )
         VizbeeTPlayAnalyticsHandler()
+        VizbeeContext.getInstance().addCustomEventAttributes(JSONObject().apply {
+            put("TMobile_SubscriberId", "tmobile-test-subscriber-id-12345")
+        })
         setContent {
             TMobilePlayApp()
         }
